@@ -4,10 +4,10 @@ import Gallery from './Gallery';
 
 function App() {
   return (
-    <>
-    <h1 style={{textAlign: 'center'}}>BoomGallery</h1>
+    <div className="App">
+    <h1 className="title" style={{textAlign: 'center',color:'#fff'}}>BoomGallery</h1>
     <Gallery/>
-    </>
+    </div>
   );
 }
 
